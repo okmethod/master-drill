@@ -1,0 +1,1 @@
+function t(t,n){const r=function(t,n){if(t.length<n)throw new Error("shortage elements in the array");const r=[],e=new Set;for(;r.length<n;){const n=(o=t.length,Math.floor(Math.random()*o));e.has(n)||(r.push(t[n]),e.add(n))}var o;return r}(Array.from({length:t.length},((t,n)=>n)),n);return r.map((n=>t[n]))}export{t as p};
